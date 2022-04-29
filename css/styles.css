@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-weight: 300;
+}
+
+.task-form {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+input, button {
+  outline: none;
+  border: none;
+  background: none;
+
+}
+
+.task-form__input {
+  padding: 10px;
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.task-form__submit {
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-weight: 300;
+}
+
+.task-list {
+  padding: 15px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.task__text {
+  font-size: 14px;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.task-btn__delete {
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .4s;
+}
+
+.task__ckeck {
+  margin: auto 0;
+  
+}
